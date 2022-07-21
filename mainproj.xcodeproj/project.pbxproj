@@ -7,12 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D3C5AD42888A038002F3090 /* secondPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3C5AD32888A038002F3090 /* secondPageViewController.swift */; };
+		2D3C5AD62888C73E002F3090 /* ViewControllerpage3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3C5AD52888C73E002F3090 /* ViewControllerpage3.swift */; };
+		2D3C5AD82888CBEF002F3090 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D3C5AD72888CBEF002F3090 /* Media.xcassets */; };
+		2D3C5ADC2888F9B0002F3090 /* toDoListNav.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3C5ADB2888F9B0002F3090 /* toDoListNav.swift */; };
+		2D3C5ADE2888FFEE002F3090 /* TableControllerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3C5ADD2888FFEE002F3090 /* TableControllerTableViewController.swift */; };
+		2D3C5AE028890040002F3090 /* ToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3C5ADF28890040002F3090 /* ToDo.swift */; };
+		2D3C5AE228891CBD002F3090 /* AddToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3C5AE128891CBD002F3090 /* AddToDoViewController.swift */; };
+		2D3C5AE4288925A0002F3090 /* CompleteToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3C5AE3288925A0002F3090 /* CompleteToDoViewController.swift */; };
 		93781E75288730F2005C413A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93781E74288730F2005C413A /* AppDelegate.swift */; };
 		93781E77288730F2005C413A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93781E76288730F2005C413A /* SceneDelegate.swift */; };
 		93781E79288730F2005C413A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93781E78288730F2005C413A /* ViewController.swift */; };
 		93781E7C288730F2005C413A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93781E7A288730F2005C413A /* Main.storyboard */; };
 		93781E7F288730F2005C413A /* mainproj.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 93781E7D288730F2005C413A /* mainproj.xcdatamodeld */; };
-		93781E81288730F4005C413A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93781E80288730F4005C413A /* Assets.xcassets */; };
 		93781E84288730F4005C413A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93781E82288730F4005C413A /* LaunchScreen.storyboard */; };
 		93781E8F288730F5005C413A /* mainprojTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93781E8E288730F5005C413A /* mainprojTests.swift */; };
 		93781E99288730F5005C413A /* mainprojUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93781E98288730F5005C413A /* mainprojUITests.swift */; };
@@ -37,13 +44,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2D3C5AD32888A038002F3090 /* secondPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondPageViewController.swift; sourceTree = "<group>"; };
+		2D3C5AD52888C73E002F3090 /* ViewControllerpage3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerpage3.swift; sourceTree = "<group>"; };
+		2D3C5AD72888CBEF002F3090 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		2D3C5ADB2888F9B0002F3090 /* toDoListNav.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = toDoListNav.swift; sourceTree = "<group>"; };
+		2D3C5ADD2888FFEE002F3090 /* TableControllerTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableControllerTableViewController.swift; sourceTree = "<group>"; };
+		2D3C5ADF28890040002F3090 /* ToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo.swift; sourceTree = "<group>"; };
+		2D3C5AE128891CBD002F3090 /* AddToDoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToDoViewController.swift; sourceTree = "<group>"; };
+		2D3C5AE3288925A0002F3090 /* CompleteToDoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteToDoViewController.swift; sourceTree = "<group>"; };
 		93781E71288730F2005C413A /* mainproj.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mainproj.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93781E74288730F2005C413A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		93781E76288730F2005C413A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		93781E78288730F2005C413A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		93781E7B288730F2005C413A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		93781E7E288730F2005C413A /* mainproj.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = mainproj.xcdatamodel; sourceTree = "<group>"; };
-		93781E80288730F4005C413A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		93781E83288730F4005C413A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		93781E85288730F4005C413A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		93781E8A288730F5005C413A /* mainprojTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mainprojTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -81,6 +95,7 @@
 		93781E68288730F2005C413A = {
 			isa = PBXGroup;
 			children = (
+				2D3C5AE3288925A0002F3090 /* CompleteToDoViewController.swift */,
 				93781E73288730F2005C413A /* mainproj */,
 				93781E8D288730F5005C413A /* mainprojTests */,
 				93781E97288730F5005C413A /* mainprojUITests */,
@@ -101,14 +116,20 @@
 		93781E73288730F2005C413A /* mainproj */ = {
 			isa = PBXGroup;
 			children = (
+				2D3C5AE128891CBD002F3090 /* AddToDoViewController.swift */,
+				2D3C5AD32888A038002F3090 /* secondPageViewController.swift */,
 				93781E74288730F2005C413A /* AppDelegate.swift */,
 				93781E76288730F2005C413A /* SceneDelegate.swift */,
 				93781E78288730F2005C413A /* ViewController.swift */,
 				93781E7A288730F2005C413A /* Main.storyboard */,
-				93781E80288730F4005C413A /* Assets.xcassets */,
+				2D3C5ADF28890040002F3090 /* ToDo.swift */,
+				2D3C5ADD2888FFEE002F3090 /* TableControllerTableViewController.swift */,
+				2D3C5ADB2888F9B0002F3090 /* toDoListNav.swift */,
+				2D3C5AD52888C73E002F3090 /* ViewControllerpage3.swift */,
 				93781E82288730F4005C413A /* LaunchScreen.storyboard */,
 				93781E85288730F4005C413A /* Info.plist */,
 				93781E7D288730F2005C413A /* mainproj.xcdatamodeld */,
+				2D3C5AD72888CBEF002F3090 /* Media.xcassets */,
 			);
 			path = mainproj;
 			sourceTree = "<group>";
@@ -235,7 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				93781E84288730F4005C413A /* LaunchScreen.storyboard in Resources */,
-				93781E81288730F4005C413A /* Assets.xcassets in Resources */,
+				2D3C5AD82888CBEF002F3090 /* Media.xcassets in Resources */,
 				93781E7C288730F2005C413A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,9 +282,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D3C5AE028890040002F3090 /* ToDo.swift in Sources */,
 				93781E79288730F2005C413A /* ViewController.swift in Sources */,
+				2D3C5AE228891CBD002F3090 /* AddToDoViewController.swift in Sources */,
+				2D3C5AD42888A038002F3090 /* secondPageViewController.swift in Sources */,
+				2D3C5AE4288925A0002F3090 /* CompleteToDoViewController.swift in Sources */,
 				93781E7F288730F2005C413A /* mainproj.xcdatamodeld in Sources */,
+				2D3C5ADC2888F9B0002F3090 /* toDoListNav.swift in Sources */,
+				2D3C5AD62888C73E002F3090 /* ViewControllerpage3.swift in Sources */,
 				93781E75288730F2005C413A /* AppDelegate.swift in Sources */,
+				2D3C5ADE2888FFEE002F3090 /* TableControllerTableViewController.swift in Sources */,
 				93781E77288730F2005C413A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
