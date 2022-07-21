@@ -95,7 +95,6 @@
 		93781E68288730F2005C413A = {
 			isa = PBXGroup;
 			children = (
-				2D3C5AE3288925A0002F3090 /* CompleteToDoViewController.swift */,
 				93781E73288730F2005C413A /* mainproj */,
 				93781E8D288730F5005C413A /* mainprojTests */,
 				93781E97288730F5005C413A /* mainprojUITests */,
@@ -116,6 +115,7 @@
 		93781E73288730F2005C413A /* mainproj */ = {
 			isa = PBXGroup;
 			children = (
+				2D3C5AE3288925A0002F3090 /* CompleteToDoViewController.swift */,
 				2D3C5AE128891CBD002F3090 /* AddToDoViewController.swift */,
 				2D3C5AD32888A038002F3090 /* secondPageViewController.swift */,
 				93781E74288730F2005C413A /* AppDelegate.swift */,

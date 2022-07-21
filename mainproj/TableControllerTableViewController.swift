@@ -8,23 +8,41 @@
 import UIKit
 
 class TableControllerTableViewController: UITableViewController {
-    var toDos : [ToDo] = []
+    var toDos : [ToDoCD] = []
    
     override func viewDidLoad() {
         super.viewDidLoad()
+       // var toDos : [ToDoCD] = []
         
-        toDos = createToDos()
-    }
-    func createToDos() -> [ToDo] {
-        let swift = ToDo()
-        swift.name = "Learn Swift"
-        swift.important = true
-        let dog = ToDo()
-        dog.name = "Walk the dogs"
-        dog.important = false
         
-        return [swift,dog]
     }
+    
+    func getToDos() {
+        if let context = (UIApplication.shared.delegate as? AppDelegate)?.persistentContainer.viewContext {
+            
+            if let coreDataToDos = try? context.fetch(ToDoCD.fetchRequest()) as? [ToDoCD] {
+                toDos = coreDataToDos
+                tableView.reloadData()
+            }
+        }
+    }
+    
+    
+    override func viewWillAppear(_ animated: Bool) {
+        getToDos()
+    }
+    
+    
+//    func createToDos() -> [ToDo] {
+//        let swift = ToDo()
+//        swift.name = "Learn Swift"
+//        swift.important = true
+//        let dog = ToDo()
+//        dog.name = "Walk the dogs"
+//        dog.important = false
+//
+//        return [swift,dog]
+ //   }
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath){
         let toDo = toDos[indexPath.row]
         
@@ -57,11 +75,11 @@ class TableControllerTableViewController: UITableViewController {
         
         let toDoItem = toDos[indexPath.row]
         
-        if toDoItem.important {
-            cell.textLabel?.text = "❗️" + toDoItem.name
-        } else {
+        //if toDoItem.important {
+            //cell.textLabel?.text = "❗️" + toDoItem.name
+        //} else {
             cell.textLabel?.text = toDoItem.name
-        }
+       // }
         
         return cell
     }
@@ -74,7 +92,7 @@ class TableControllerTableViewController: UITableViewController {
         
         
         if let completeVC = segue.destination as? CompleteToDoViewController {
-            if let toDo = sender as? ToDo {
+            if let toDo = sender as? ToDoCD {
                 completeVC.selectedToDo = toDo
                 completeVC.previousVC = self
             }
