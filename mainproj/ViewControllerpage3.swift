@@ -10,17 +10,14 @@ import UIKit
 class ViewControllerpage3: UIViewController {
     
     @IBOutlet weak var flower: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         // Do any additional setup after loading the view.
     }
     
-    @IBAction func flowerReveal(_ sender: Any) {
-        flower.isHidden = false
-        
-        
-    }
+    
     
     /*
      // MARK: - Navigation
