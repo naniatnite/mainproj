@@ -9,7 +9,7 @@ import UIKit
 
 class secondPageViewController: UIViewController {
 
-    @IBOutlet weak var wasteButton: UIButton!
+    //@IBOutlet weak var wasteButton: UIButton!
 
   
     @IBOutlet weak var awardButton: UIButton!
@@ -19,8 +19,8 @@ class secondPageViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        wasteButton.titleLabel?.font = UIFont(name: "Papyrus", size: 15)
-        awardButton.titleLabel?.font = UIFont(name: "Papyrus", size: 15)
+      //  wasteButton.titleLabel?.font = UIFont(name: "Papyrus", size: 15)
+        awardButton.titleLabel?.font = UIFont(name: "Bodoni 72 Oldstyle", size: 15)
         infoButton.titleLabel?.font = UIFont(name: "Papyrus", size: 15)
         
         

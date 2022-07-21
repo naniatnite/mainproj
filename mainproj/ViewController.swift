@@ -19,7 +19,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         homeButtonFont.titleLabel?.font = UIFont(name: "Papyrus", size: 15)
-        label1.font = UIFont(name: "Papyrus", size: 15)
+        //label1.font = UIFont(name: "Papyrus", size: 15)
     }
 
     
