@@ -14,7 +14,7 @@
             <objects>
                 <viewController title="HomePage" id="BYZ-38-t0r" customClass="ViewController" customModule="mainproj" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="790"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="unnamed" translatesAutoresizingMaskIntoConstraints="NO" id="SOZ-DK-9ab">
@@ -128,14 +128,14 @@
         <scene sceneID="Peb-fx-p6Z">
             <objects>
                 <viewController id="Rq0-Ze-Q79" customClass="newInfoPage" customModule="mainproj" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="eUd-Jp-UU7">
+                    <view key="view" contentMode="scaleToFill" id="eUd-Jp-UU7">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yea-lP-axc">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yea-lP-axc">
                                 <rect key="frame" x="0.0" y="44" width="390" height="717"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fhA-Ps-Pkz">
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fhA-Ps-Pkz">
                                         <rect key="frame" x="0.0" y="0.0" width="390" height="2000"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H3N-jY-Kbt">
@@ -144,7 +144,7 @@
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="tinted" title="Transportation"/>
                                                 <connections>
-                                                    <segue destination="aIq-nf-gcH" kind="show" id="6pN-b2-wjE"/>
+                                                    <segue destination="aIq-nf-gcH" kind="presentation" modalPresentationStyle="fullScreen" id="6pN-b2-wjE"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hZM-jD-nS0">
@@ -153,7 +153,7 @@
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="tinted" title="Fast Fashion"/>
                                                 <connections>
-                                                    <segue destination="Ycq-za-9aw" kind="show" id="CSq-fT-4eb"/>
+                                                    <segue destination="Ycq-za-9aw" kind="presentation" modalPresentationStyle="fullScreen" id="CSq-fT-4eb"/>
                                                 </connections>
                                             </button>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="17" translatesAutoresizingMaskIntoConstraints="NO" id="T4g-BY-sgA">
@@ -166,7 +166,7 @@
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" image="homekit" catalog="system" title=""/>
                                                 <connections>
-                                                    <segue destination="qok-5s-eeT" kind="show" id="38q-ac-qYH"/>
+                                                    <segue destination="qok-5s-eeT" kind="presentation" modalPresentationStyle="fullScreen" id="38q-ac-qYH"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="05k-HT-vBo">
@@ -175,7 +175,7 @@
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="tinted" title="Food Industry"/>
                                                 <connections>
-                                                    <segue destination="PBV-6P-ECQ" kind="show" id="gT2-eI-qpZ"/>
+                                                    <segue destination="PBV-6P-ECQ" kind="presentation" modalPresentationStyle="fullScreen" id="gT2-eI-qpZ"/>
                                                 </connections>
                                             </button>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="18" translatesAutoresizingMaskIntoConstraints="NO" id="naP-wA-anD">
@@ -232,7 +232,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="100" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ggt-uZ-dX2">
                                 <rect key="frame" x="30" y="139" width="330" height="652.33333333333326"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">Transportation is the roadway that has managed to interconnect with various people across the world. These modes of transportations take place within land, water, and air. However, the transport sector accounts for 22% global CO2 emissions as they release pollutants such as ozone , nitrogen, and toxin gasses in general. This degrades air quality within time and also changes the climate of the world. 🌎
+                                <string key="text">Transportation is the roadway that has managed to interconnect with various people across the world. These modes of transportations take place within land, water, and air. However, the transport sector accounts for 22% global CO2 emissions as they release pollutants such as ozone , nitrogen, and toxin gasses in general. This degrades air quality within time and also changes the climate of the world. 🌎
 
 Examples of utilizing transportation: 
 Driving whether it be to work or going on a roadtrip with your car 
@@ -248,7 +248,7 @@ Toyota Prius C
 Kia Niro Hybrid Crossover 
 Hyundai Sonata Hybrid
 Toyota Hybrid 
-</mutableString>
+</string>
                                 <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="19"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -297,7 +297,7 @@ Toyota Hybrid
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="100" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fgd-S7-b48">
                                 <rect key="frame" x="30" y="92" width="330" height="752"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">What is Fast Fashion? 👗
+                                <string key="text">What is Fast Fashion? 👗
 Fast Fashion is an industry which is dedicated to overproducing cheap but trendy clothing, and is taking place within rural countries as there are higher chances of accessing cheap labor. Many of these factories severely damage the environment while overproducing clothing. The quality of worker’s lives is also constantly being degraded by the fast fashion industry. 
 
 Did you know?
@@ -328,7 +328,7 @@ Recommended Goals:
 Thrifting for clothes
 Upcycle your old clothing 
 Start a Yard Sale - and sell your clothing 
-</mutableString>
+</string>
                                 <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="15"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -377,7 +377,7 @@ Start a Yard Sale - and sell your clothing
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="100" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IAk-bz-CPq">
                                 <rect key="frame" x="30" y="123" width="330" height="496.33333333333337"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">Food Production is composed of food delivery and processing. The industrial or conventional way of processing food can often cause detrimental impacts on the environment. For example, cropped fields require chemical fertilizer and pesticides that are basically engrained within the soil. Moreover, many factory farms produce large amounts of animal waste that pollute soil, air, and water. Food is at the heart of trying to tackle climate change as it can lead to reduced water stress, pollution, and also manage to restore land. 
+                                <string key="text">Food Production is composed of food delivery and processing. The industrial or conventional way of processing food can often cause detrimental impacts on the environment. For example, cropped fields require chemical fertilizer and pesticides that are basically engrained within the soil. Moreover, many factory farms produce large amounts of animal waste that pollute soil, air, and water. Food is at the heart of trying to tackle climate change as it can lead to reduced water stress, pollution, and also manage to restore land. 
 Did you know?
 Food by itself produces 26% of carbon gas emissions 
 70% of global freshwater withdrawal is used for agriculture
@@ -388,7 +388,7 @@ Start planting your own food by setting up a garden
 Tomatoes , Strawberries, etc
 Considering a vegetarian diet as meat production produces lots of gas emissions 
 Supporting farmers markets and eating/shopping locally
-</mutableString>
+</string>
                                 <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="16"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -568,14 +568,14 @@ Supporting farmers markets and eating/shopping locally
         <scene sceneID="yrh-KM-bNd">
             <objects>
                 <viewController title="achievements" id="kdv-lg-4rA" customClass="ViewControllerpage3" customModule="mainproj" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Dtk-0Y-mLr">
+                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="Dtk-0Y-mLr">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oIc-4i-G2j">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oIc-4i-G2j">
                                 <rect key="frame" x="0.0" y="44" width="390" height="766"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="a21-Jy-9eC">
+                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="a21-Jy-9eC">
                                         <rect key="frame" x="0.0" y="0.0" width="390" height="2000"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Untitled design-2" translatesAutoresizingMaskIntoConstraints="NO" id="Hei-Do-gCB">
@@ -718,14 +718,14 @@ Supporting farmers markets and eating/shopping locally
         <scene sceneID="G2b-pk-dTF">
             <objects>
                 <viewController title="achievements" id="PVF-18-2zK" customClass="ViewControllerpage3" customModule="mainproj" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="pdI-4Z-FqZ">
+                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="pdI-4Z-FqZ">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Pu1-UF-wrU">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Pu1-UF-wrU">
                                 <rect key="frame" x="0.0" y="44" width="390" height="766"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ztm-2B-Jog">
+                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ztm-2B-Jog">
                                         <rect key="frame" x="0.0" y="0.0" width="390" height="2000"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Untitled design-2" translatesAutoresizingMaskIntoConstraints="NO" id="7oc-du-qs8">
@@ -1021,7 +1021,7 @@ Supporting farmers markets and eating/shopping locally
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="38q-ac-qYH"/>
-        <segue reference="wwF-ln-bhW"/>
+        <segue reference="Iba-2C-uov"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.3199352583924181" green="0.41801122291800907" blue="0.1527414052675358" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
     <resources>
